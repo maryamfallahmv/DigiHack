@@ -9,6 +9,6 @@
  *     19  →  true
  */
 export function erMyndig(alder: number): boolean {
-  // TODO
-  throw new Error('Oppgave 6 — ikke implementert ennå');
+
+return alder >= 18;
 }
