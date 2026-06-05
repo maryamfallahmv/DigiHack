@@ -3,7 +3,8 @@
  *
  * Gitt et fødselsår og et referanseår, returner alderen i år.
  */
-export function alderIAr(fodselsAar: number, referanseAar: number): number {
-  // TODO
-  throw new Error('Oppgave 3 — ikke implementert ennå');
+export function alderIAr(fodselsAar: number, referanseAar: number): number { 
+  
+  return referanseAar - fodselsAar;
+  
 }
