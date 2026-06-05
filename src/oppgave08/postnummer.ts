@@ -10,6 +10,6 @@
  *     "01a0"   →  false   (ikke bare sifre)
  */
 export function erGyldig(postnummer: string): boolean {
-  // TODO
-  throw new Error('Oppgave 8 — ikke implementert ennå');
+  
+  return /^\d{4}$/.test(postnummer);
 }

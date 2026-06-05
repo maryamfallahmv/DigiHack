@@ -7,7 +7,8 @@
  *
  * Returner en slik overskrift for de gitte argumentene.
  */
-export function formater(saksnavn: string, soekernavn: string): string { return`${saksnavn} — søknad fra ${soekernavn}`;
-  // TODO
-  throw new Error('Oppgave 2 — ikke implementert ennå');
+export function formater(saksnavn: string, soekernavn: string): string {
+  
+  return`${saksnavn} — søknad fra ${soekernavn}`;
+ 
 }
