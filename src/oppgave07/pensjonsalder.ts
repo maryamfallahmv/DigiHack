@@ -11,6 +11,6 @@
  *     70  →  0
  */
 export function aarIgjen(alder: number): number {
-  // TODO
-  throw new Error('Oppgave 7 — ikke implementert ennå');
+ 
+  return Math.max(0, 67 - alder);
 }
