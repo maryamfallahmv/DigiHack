@@ -10,6 +10,6 @@
  *     belop=19999, nedre=20000, ovre=40000  →  false
  */
 export function innenfor(belop: number, nedre: number, ovre: number): boolean {
-  // TODO
-  throw new Error('Oppgave 9 — ikke implementert ennå');
+
+   return belop >= nedre && belop <= ovre;
 }
