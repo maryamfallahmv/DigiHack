@@ -15,6 +15,17 @@
  *     "@nav.no"       →  false   (ingenting før @)
  */
 export function erGyldig(epost: string): boolean {
-  // TODO
-  throw new Error('Oppgave 10 — ikke implementert ennå');
+  
+    const at = epost.indexOf('@');
+
+  if (at <= 0) return false;
+
+  if (epost.indexOf('@', at + 1) !== -1) return false;
+
+  const domene = epost.slice(at + 1);
+  const dot = domene.indexOf('.');
+
+  if (dot <= 0 || dot === domene.length - 1) return false;
+
+  return true;
 }
