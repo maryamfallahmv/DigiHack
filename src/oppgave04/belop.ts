@@ -13,6 +13,7 @@
  * negativt.
  */
 export function formaterBelop(kroner: number): string {
-  // TODO
-  throw new Error('Oppgave 4 — ikke implementert ennå');
+
+ const belop = String(kroner).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  return `${belop} kr`;
 }
