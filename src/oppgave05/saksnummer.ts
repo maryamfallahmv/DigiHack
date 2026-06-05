@@ -10,6 +10,6 @@
  *     12345  →  "SAK-12345"   (flere enn fire sifre kuttes ikke)
  */
 export function lagSaksnummer(nr: number): string {
-  // TODO
-  throw new Error('Oppgave 5 — ikke implementert ennå');
+   
+   return `SAK-${String(nr).padStart(4, '0')}`;
 }
